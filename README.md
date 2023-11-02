@@ -1,6 +1,9 @@
 # Repo - query_doc_llm
 Code repo to demo the power of LLM's using Langchain framework. This example is based on learnings from "Hands-On Applications with LangChain, Pinecone, and OpenAI. Build Web Apps with Streamlit" - Udemy Course by Andrei Dumitrescu.
 
+# How to use it
+Clone the repo - install requirements.txt modules - update your .env files with OPENAI and PINECONE KEYS. Run the queryCLI.py and provide the us-constitution.pdf as an input (its a smaller file to start with)
+
 # What it does
 Provides a simple command line tool to query a document which can either have a .pdf (or) .docx extension. The query is done via an interactive CLI program through which you can load a document and ask it questions. Type exit to come out of the CLI prompt.
 
